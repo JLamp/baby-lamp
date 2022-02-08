@@ -45,6 +45,15 @@ h6 {
   overflow-wrap: break-word;
 }
 
+a {
+    color: unset;
+  transition: all .25s;
+}
+
+a:hover{
+    color: #FEFF00;
+}
+
 .ContentContainer {
   height: 100%;
   background: black;
@@ -67,4 +76,37 @@ h6 {
 .ExplainerText {
   text-align: center;
   margin: 1.5rem 0;
+}
+
+.ButtonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  background: rgba(255, 255, 255, 0);
+  color: white;
+  padding: 1rem;
+  border: 4px solid rgba(255, 255, 255, .5);
+  border-radius: 8px;
+  width: 240px;
+  justify-content: center;
+  opacity: .8;
+  transition: all .25s;
+}
+
+button:hover {
+  color: red;
+    background: rgba(255, 255, 255, 0.05);
+    border: 4px solid red;
+    opacity: 1;
 }
