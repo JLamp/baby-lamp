@@ -4,9 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="https://glitch.com/favicon.ico" />
-    <style>
-      @import url(&quot;https://fonts.googleapis.com/css2?family=VT323&display=swap&quot;);
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet"> 
 
     <!-- 
       This is an HTML comment
@@ -41,17 +41,33 @@
   <body>
     <div class="ContentContainer">
       <img src="https://cdn.glitch.global/ee6ec05c-7543-4d90-afb4-ccc7a4e7cde0/logo-pacman.svg?v=1644281649966"/>
-      <p>
+      
+      <p class="ExplainerText">
         Join us at <a href="https://www.a4cade.com/">Roxy&apos;s A4Cade</a> on Sunday, April 10 from 1-5pm to celebrate a new baby!
       </p>
-      <button
+      
+      <div class="ButtonContainer">
+        <button
         data-tf-popup="wRXDnik4"
         data-tf-iframe-props="title=Baby Shower RSVP"
         data-tf-medium="snippet"
       >
-        Launch me
+        RSVP
+      </button>
+      <button>
+        Registry
+      </button>
+      <button>
+        Calender Event
       </button>
       <script src="//embed.typeform.com/next/embed.js"></script>
+      </div>
+      
+      <footer>
+        <span>
+          A4CADE is strictly 21+. Vaccinations required. Food, drink, and $10 of tokens included.
+        </span>
+      </footer>
     </div>
   </body>
 </html>
